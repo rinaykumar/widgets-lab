@@ -6,3 +6,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.widget {
+  padding: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.text-clicker-widget input {
+  width: 100%;
+  font-size: 18px;
+  box-sizing: border-box; /* Makes it fit edge to edge */
+}
+
+.text-clicker-widget {
+  cursor: pointer;
+}
+
+.text-clicker-widget:hover {
+  background-color: darkcyan;
+}
